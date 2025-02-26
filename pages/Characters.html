@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="/purgatory/pageloader.js?v=<?php echo time(); ?>"></script>
+		<style>
+			body {
+				display: none;
+				background-color: #1e1e1e;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Characters</h1>
+		<p>A category for every single character page.</p>
+		<h2 style="color:#58a6ff" class="Quantico">
+			<div
+				id="Pages"
+				style="width:100%; flex: auto;
+									    display: flex;
+									    flex-wrap: wrap;
+									    align-content: flex-start;
+									    justify-content: center;
+									    align-items: center;
+									    gap: 15px;"
+			></div>
+
+			<script>
+				document.addEventListener("pageLoaded", function() {
+					setTimeout(function() {
+						document.getElementById("content").style.width = "94vw";
+						const items = document.getElementById("Pages");
+
+						function fetchJSON(url) {
+							return fetch(url).then(response => {
+								if (!response.ok) {
+									throw new Error(`Network response was not ok: ${response.statusText}`);
+								}
+								return response.json();
+							});
+						}
+
+						Promise.all([
+							fetchJSON('/purgatory/pages.json'),
+							fetchJSON('/purgatory/iconsizes.json')
+						]).then(([pages, icons]) => {
+							if (pages) {
+								pages.pages.forEach(function(item) {
+									if (item.tags.indexOf("Character") != -1) {
+										items.innerHTML += `
+											<div
+												class="PageButton2"
+												onclick="window.location.href = '/purgatory/pages/${item.title}'">
+												<img style="width:${icons[item.title].width}" src="/purgatory/images/icons/${item.title}.png" />
+												<a href="/purgatory/pages/${item.title}">${item.title}</a>
+											</div>`;
+									}
+								});
+							}
+						}).catch(error => {
+							console.error('Error loading page data:', error);
+						});
+					}, 500);
+				});
+			</script>
+		</h2>
+	</body>
+</html>
