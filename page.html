@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wiki Page</title>
+		<meta name="description" content="Purgatory Database" />
+		<meta
+			name="keywords"
+			content="wiki, Purgatory Database, characters, information"
+		/>
+		<style>
+						@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Tektur:wght@400..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+
+										.vt323 {
+						  font-family: "VT323", monospace;
+						  font-weight: 400;
+						  font-style: normal;
+						}
+
+						.tektur {
+			  font-family: "Tektur", serif;
+			  font-optical-sizing: auto;
+			  font-weight: <weight>;
+			  font-style: normal;
+			  font-variation-settings:
+			    "wdth" 100;
+			}
+
+			.quantico {
+			  font-family: "Quantico", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+			.quantico-bold {
+			  font-family: "Quantico", serif;
+			  font-weight: 700;
+			  font-style: normal;
+			}
+
+			.quantico-regular-italic {
+			  font-family: "Quantico", serif;
+			  font-weight: 400;
+			  font-style: italic;
+			}
+
+			.quantico-bold-italic {
+			  font-family: "Quantico", serif;
+			  font-weight: 700;
+			  font-style: italic;
+			}
+
+			.geostar-fill {
+			  font-family: "Geostar Fill", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+			.turret-road-extralight {
+			  font-family: "Turret Road", serif;
+			  font-weight: 200;
+			  font-style: normal;
+			}
+
+			.turret-road-light {
+			  font-family: "Turret Road", serif;
+			  font-weight: 300;
+			  font-style: normal;
+			}
+
+			.turret-road {
+			  font-family: "Turret Road", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+			.turret-road-medium {
+			  font-family: "Turret Road", serif;
+			  font-weight: 500;
+			  font-style: normal;
+			}
+
+			.turret-road-bold {
+			  font-family: "Turret Road", serif;
+			  font-weight: 700;
+			  font-style: normal;
+			}
+
+			.turret-road-extrabold {
+			  font-family: "Turret Road", serif;
+			  font-weight: 800;
+			  font-style: normal;
+			}
+			.jersey-10 {
+			  font-family: "Jersey 10", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+			.pixelify-sans {
+			  font-family: "Pixelify Sans", serif;
+			  font-optical-sizing: auto;
+			  font-weight: <weight>;
+			  font-style: normal;
+			}
+			.special-elite {
+			  font-family: "Special Elite", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+						a {
+							color: white;
+							text-decoration: none;
+						}
+						body {
+							font-family: Arial, sans-serif;
+							margin: 0;
+							padding: 0;
+							background-color: #1e1e1e;
+							color: #c9d1d9;
+							display: flex;
+							flex-direction: column;
+							min-height: 100vh;
+							width: 97vw;
+						}
+						#header {
+															    background-color: #161b22;
+															    padding: 10px;
+															    text-align: center;
+															    border-bottom: 1px solid #444c56;
+															    display: flex;
+															 align-content: center;
+															 justify-content: flex-start;
+															 align-items: center;
+															 gap: 20px;
+															    width: 100%;
+															    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+															    position: fixed;
+															    top: 0;
+															    z-index: 1000;
+															}
+						#header h1 {
+							margin: 0;
+							color: #c9d1d9;
+						}
+						.content {
+							padding: 20px;
+							top:20%;
+							flex-grow: 1;
+							padding-top:4%;
+							width:75%;
+							transition: opacity 0.5s;
+						}
+						#header a {
+							color: #58a6ff;
+							text-decoration: none;
+						}
+						#header a:hover {
+							text-decoration: underline;
+						}
+						.chrimg {
+							width: 75%;
+							border: 1px solid white;
+						}
+						.character-profile {
+							display: flex;
+							position: absolute;
+							left: 79%;
+							top: initial;
+							flex-direction: column;
+							align-items: center;
+							margin-bottom: 40px;
+							padding: 20px;
+							border-radius: 8px;
+							background-color: #24292f;
+							box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+						}
+						.character-profile h2 {
+							margin-top: 15px;
+							margin-bottom: 0;
+							color: #58a6ff;
+						}
+						.character-attributes {
+							display: flex;
+							flex-direction: column;
+							width: 100%;
+						}
+						.attribute {
+							display: flex;
+							justify-content: space-between;
+							padding: 10px;
+							border-bottom: 1px solid #444c56;
+						}
+						.attribute:last-child {
+							border-bottom: none;
+						}
+						.attribute-name {
+							font-weight: bold;
+							color: #c9d1d9;
+						}
+						.attribute-value {
+							color: #58a6ff;
+						}
+						.character-description {
+							margin-top: 20px;
+							color: #c9d1d9;
+							line-height: 1.6;
+						}
+						.icon-img {
+							width: 3em;
+							position: relative;
+							top: 2.5%;
+							transform: translateY(30%);
+						}
+						.loading {
+							text-align: center;
+							font-size: 1.2em;
+							margin-top: 20px;
+						}
+						.breadcrumb {
+							padding: 10px;
+							background-color: #161b22;
+							margin-bottom: 20px;
+							border-radius: 8px;
+							box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+						}
+						.breadcrumb a {
+							color: #58a6ff;
+							text-decoration: none;
+						}
+						.breadcrumb a:hover {
+							text-decoration: underline;
+						}
+
+						/* Table styles */
+						table {
+							width: 71%;
+							border-collapse: collapse;
+							margin-bottom: 20px;
+						}
+						th, td {
+							padding: 10px;
+							border: 1px solid #444c56;
+							text-align: left;
+						}
+						th {
+							background-color: #161b22;
+							color: #c9d1d9;
+						}
+						td {
+							background-color: #24292f;
+							color: #c9d1d9;
+						}
+						tr:nth-child(even) td {
+							background-color: #1b1f23;
+						}
+
+						/* Form styles */
+						form {
+							background-color: #24292f;
+							padding: 20px;
+							border-radius: 8px;
+							box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+							margin-bottom: 20px;
+						}
+						input[type="text"],
+						input[type="email"],
+						textarea,
+						select {
+							width: 100%;
+							padding: 10px;
+							margin: 10px 0;
+							border: 1px solid #444c56;
+							border-radius: 4px;
+							background-color: #1e1e1e;
+							color: #c9d1d9;
+						}
+						button {
+							padding: 10px 20px;
+							border: none;
+							border-radius: 4px;
+							background-color: #58a6ff;
+							color: #fff;
+							cursor: pointer;
+							transition: background-color 0.3s ease;
+						}
+						button:hover {
+							background-color: #1f78d1;
+						}
+
+						pre {
+						    width: 70%;
+							background-color: #161b22;
+							padding: 10px;
+							border-radius: 4px;
+							overflow-x: auto;
+							margin-bottom: 20px;
+						}
+						code {
+							color: #c9d1d9;
+						}
+						pre code {
+							color: #58a6ff;
+						}
+
+						ul, ol {
+							margin: 10px 0 20px 20px;
+						}
+						ul li, ol li {
+							margin: 5px 0;
+						}
+
+						@media (orientation: portrait) {
+							.content {
+							width:90vw;
+						}
+							.character-profile {
+								top:5%;
+								width: 75%;
+								position: static;
+							}
+						table {
+							width: 100%;
+						}
+						pre {
+						    width: 100%;
+						}
+						}
+						.PageButton {
+						 			padding: 10px 20px;
+						 			width: max-content;
+						 			border-radius: 4px;
+						 			background-color: #1e1e1e;
+						 			color: #ffffff;
+						 			border: 1px solid white;
+						 			text-decoration: none;
+						 			cursor: pointer;
+						 			font-weight: bold;
+						 			transition: background-color 0.3s ease;
+						}
+
+						.PageButton:hover {
+						 			background-color: #1e2e4e;
+						}
+
+							.PageButton2 {
+												    width: 250px;
+												    height: 250px;
+												    background: #292b2d;
+												    max-width:25vw;
+												    border-radius: 15px;
+												    filter: drop-shadow(2px 4px 12px #101010);
+												    display: flex;
+												    align-content: center;
+												    justify-content: center;
+												    font-family: "VT323", sans-serif;
+												    flex-wrap: nowrap;
+												    flex-direction: column;
+												    font-size: 24fr;
+												    align-items: center;
+												    gap: 10px;
+												    font-size-adjust: 0.482;
+															  font-size: 30px;
+															  min-width:150px;
+												}
+
+						#categories {
+										background-color: #161b22;
+										padding: 10px;
+										text-align: center;
+										border-bottom: 1px solid #444c56;
+										display: flex;
+										align-content: center;
+										justify-content: flex-start;
+										align-items: center;
+										gap: 20px;
+										width: 100%;
+										box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+										position: fixed;
+										top: 5.7%;
+										z-index: 999;
+						}
+						.category-tag {
+							color: #fff;
+							padding: 5px 10px;
+							border-radius: 4px;
+							cursor: pointer;
+							transition: background-color 0.3s ease;
+							text-decoration: none;
+							background-color: #24292f;
+							box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+						}
+						.category-tag:hover {
+							background-color: #34393f;
+							box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+						}
+		</style>
+	</head>
+	<body>
+		<div id="header" class="vt323">
+			<h1>The Purgatory Database</h1>
+			<a href="/purgatory/">Back to Home</a>
+		</div>
+		<div id="categories"></div>
+		<div class="content" id="content">Loading...</div>
+
+		<script>
+						// Function to get URL parameter
+						function getParameterByName(name) {
+							const url = new URL(window.location.href);
+							return url.searchParams.get(name);
+						}
+
+						function fetchJSON(url) {
+							return fetch(url).then(response => {
+								if (!response.ok) {
+									throw new Error(`Network response was not ok: ${response.statusText}`);
+								}
+								return response.json();
+							});
+						}
+
+						function fetchText(url) {
+							return fetch(url).then(response => {
+								if (!response.ok) {
+									throw new Error(`Network response was not ok: ${response.statusText}`);
+								}
+								return response.text();
+							});
+						}
+
+						function replaceIcons(contentElement, iconSize) {
+							const iconRegex = /<icon\s+ico="([^"]+)"\s*\/?>/gi;
+
+							contentElement.innerHTML = contentElement.innerHTML.replace(iconRegex, (match, iconName) => {
+								if (iconSize[iconName]) {
+									return `<a href="/purgatory/pages/${iconName}"><img src="/purgatory/images/icons/${iconName}.png" alt="${iconName}" class="icon-img" style="width:${iconSize[iconName].width}"></a>`;
+								} else {
+									return `<a href="/purgatory/pages/NotFound"><img src="/purgatory/images/icons/CharacterIcon.png" alt="CharacterIcon" class="icon-img" style="width:${iconSize["CharacterIcon"].width}"></a>`;
+								}
+							});
+						}
+
+						function replaceButtons(contentElement) {
+							const buttonRegex = /<pagebutton\s+page="([^"]+)"(?:\s+displayname="([^"]+)")?\s*\/?>/gi;
+							contentElement.innerHTML = contentElement.innerHTML.replace(buttonRegex, (match, pageName, displayName) => {
+									return `<a href="/purgatory/pages/${pageName}"><div class="PageButton">${displayName}</div></a>`;
+							});
+						}
+
+						function showLoading() {
+							const contentElement = document.getElementById('content');
+							contentElement.innerHTML = '<p class="loading">Loading...</p>';
+							contentElement.style.opacity = '0.5';
+						}
+
+						function hideLoading() {
+							const contentElement = document.getElementById('content');
+							contentElement.style.opacity = '1';
+						}
+
+						function createBreadcrumb(page) {
+							const breadcrumb = document.createElement('div');
+							breadcrumb.className = 'breadcrumb';
+							breadcrumb.innerHTML = `<a href="/purgatory/">Home</a> > <span>${page}</span>`;
+							document.body.insertBefore(breadcrumb, document.getElementById('content'));
+						}
+
+						function findPageData(title, pages) {
+			  						 return pages.find(page => page.title === title);
+			 					}
+
+			 					function loadScriptsFromPage(contentElement) {
+			   const scripts = contentElement.querySelectorAll('script');
+			   scripts.forEach(oldScript => {
+			     const newScript = document.createElement('script');
+			     if (oldScript.src) {
+			       newScript.src = oldScript.src;
+			     } else {
+			       newScript.textContent = oldScript.textContent;
+			     }
+			     document.body.appendChild(newScript);
+			   });
+			 }
+
+			 					function createCategories(tags) {
+				const categoriesElement = document.getElementById('categories');
+				categoriesElement.innerHTML = tags.map(tag =>
+					`<a href="/purgatory/pages/${encodeURIComponent(tag)}" class="category-tag">${tag}</a>`
+				).join('');
+			}
+						 if (pagedata) {
+							showLoading();
+							Promise.all([
+								fetchJSON('/purgatory/iconsizes.json'),
+								fetchJSON('/purgatory/pages.json'),
+							])
+							.then(([iconSize, pageIndexes]) => {
+								const contentElement = document.getElementById('content');
+								let path = window.location.pathname;
+								let pageName = path.substring(path.lastIndexOf('/') + 1);
+								const pageIndex = findPageData(pageName, pageIndexes.pages)
+								contentElement.innerHTML = pagedata;
+								replaceIcons(contentElement, iconSize);
+								replaceButtons(contentElement);
+								createBreadcrumb(pageName);
+								loadScriptsFromPage(contentElement);
+									if (pageIndex && pageIndex.tags) {
+										createCategories(pageIndex.tags);
+									}
+
+								hideLoading();
+							})
+							.catch(error => {
+								console.error('Error:', error);
+								window.location.href = "https://madmantoss.nekoweb.org/purgatory/pages/NotFound";
+								hideLoading();
+							});
+						} else {
+							window.location.href = "https://madmantoss.nekoweb.org/purgatory/pages/NoPage";
+						}
+
+			function handlePageRedirect(event) {
+			    const targetPage = event.currentTarget.getAttribute('data-target');
+			    console.log(targetPage)
+			    if (targetPage) {
+			        window.location.href = `/purgatory/pages/${targetPage}`;
+			    } else {
+			        console.error('No target page specified.');
+			    }
+			}
+
+			document.querySelectorAll('.PageRedirectLink').forEach(link => {
+				console.log(link)
+			    link.addEventListener('click', handlePageRedirect);
+			});
+
+			document.querySelectorAll('.PageRedirectButton').forEach(button => {
+			    button.addEventListener('click', handlePageRedirect);
+			});
+		</script>
+	</body>
+</html>

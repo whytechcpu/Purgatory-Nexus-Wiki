@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wiki</title>
+		<style>
+
+											@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Tektur:wght@400..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+
+										.vt323-regular {
+						  font-family: "VT323", monospace;
+						  font-weight: 400;
+						  font-style: normal;
+						}
+
+									.tektur {
+			  font-family: "Tektur", serif;
+			  font-optical-sizing: auto;
+			  font-weight: <weight>;
+			  font-style: normal;
+			  font-variation-settings:
+			    "wdth" 100;
+			}
+
+			.quantico {
+			  font-family: "Quantico", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+			.quantico-bold {
+			  font-family: "Quantico", serif;
+			  font-weight: 700;
+			  font-style: normal;
+			}
+
+			.quantico-regular-italic {
+			  font-family: "Quantico", serif;
+			  font-weight: 400;
+			  font-style: italic;
+			}
+
+			.quantico-bold-italic {
+			  font-family: "Quantico", serif;
+			  font-weight: 700;
+			  font-style: italic;
+			}
+
+			.geostar-fill {
+			  font-family: "Geostar Fill", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+			.turret-road-extralight {
+			  font-family: "Turret Road", serif;
+			  font-weight: 200;
+			  font-style: normal;
+			}
+
+			.turret-road-light {
+			  font-family: "Turret Road", serif;
+			  font-weight: 300;
+			  font-style: normal;
+			}
+
+			.turret-road {
+			  font-family: "Turret Road", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+			.turret-road-medium {
+			  font-family: "Turret Road", serif;
+			  font-weight: 500;
+			  font-style: normal;
+			}
+
+			.turret-road-bold {
+			  font-family: "Turret Road", serif;
+			  font-weight: 700;
+			  font-style: normal;
+			}
+
+			.turret-road-extrabold {
+			  font-family: "Turret Road", serif;
+			  font-weight: 800;
+			  font-style: normal;
+			}
+			.jersey-10 {
+			  font-family: "Jersey 10", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+			.pixelify-sans {
+			  font-family: "Pixelify Sans", serif;
+			  font-optical-sizing: auto;
+			  font-weight: <weight>;
+			  font-style: normal;
+			}
+			.special-elite {
+			  font-family: "Special Elite", serif;
+			  font-weight: 400;
+			  font-style: normal;
+			}
+
+															body {
+															    font-family: Arial, sans-serif;
+															    font-family: "VT323", sans-serif;
+															    margin: 0;
+															    padding: 0;
+															    background-color: #1e1e1e;
+															    color: #c9d1d9;
+															    display: flex;
+															    min-height: 100vh;
+															    min-width: 95vw;
+															}
+
+															#header {
+															    background-color: #161b22;
+															    padding: 10px;
+															    text-align: center;
+															    border-bottom: 1px solid #444c56;
+															    display: flex;
+															 align-content: center;
+															 justify-content: flex-start;
+															 align-items: center;
+															 gap: 20px;
+															    width: 100%;
+															    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+															    position: fixed;
+															    top: 0;
+															    z-index: 1000;
+															}
+
+															#header h1 {
+															    margin: 0;
+															    color: #c9d1d9;
+															}
+
+															#hello #nav {
+															    width: 220px;
+															    background-color: #0d1117;
+															    padding: 20px;
+															    box-sizing: border-box;
+															    border-right: 1px solid #444c56;
+															    position: fixed;
+															    top: 70px;
+															    bottom: 0;
+															    overflow-y: auto;
+															}
+
+															#hello #nav h2 {
+															    margin-top: 0;
+															    color: #c9d1d9;
+															}
+
+															#hello #nav ul {
+															    list-style-type: none;
+															    padding: 0;
+															}
+
+															#hello #nav ul li {
+															    margin: 10px 0;
+															    display: flex;
+															 align-items: center;
+															 gap: 15px;
+															}
+
+															.icon {
+															    width: 30%;
+															}
+
+															#hello #nav ul li a {
+															    text-decoration: none;
+															    color: #58a6ff;
+															}
+
+															#hello #nav ul li a:hover {
+															    text-decoration: underline;
+															}
+
+															#hello #content {
+															   /* margin-left: 240px;*/
+															    padding: 90px 20px 20px 20px;
+															    flex-grow: 1;
+															}
+
+															a {
+												    			color: white;
+												   			 text-decoration: none;
+															}
+
+															.listitem {
+												    width: 250px;
+												    height: 250px;
+												    background: #292b2d;
+												    max-width:30vw;
+
+												    border-radius: 15px;
+												    filter: drop-shadow(2px 4px 12px #101010);
+												    display: flex;
+												    align-content: center;
+												    justify-content: center;
+												    flex-wrap: nowrap;
+												    flex-direction: column;
+												    font-size: 24fr;
+												    align-items: center;
+												    gap: 10px;
+												    font-size-adjust: 0.482;
+															  font-size: 30px;
+												}
+
+												#hello {
+												    flex: auto;
+												    display: flex;
+												    flex-wrap: wrap;
+												    align-content: flex-start;
+												    justify-content: center;
+												    align-items: center;
+												    margin: auto;
+												    gap: 15px;
+												}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>The Purgatory Database</h1>
+		</div>
+		<div style="display:none" id="nav">
+			<h2>Pages</h2>
+			<ul id="page-list"></ul>
+		</div>
+		<div id="content" style="width:97vw; margin:auto;">
+			<img
+				src="/purgatory/images/LogoV3.png"
+				style="
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+"
+			/>
+
+			<div id="hello"></div>
+		</div>
+		<script>
+			const pagesPromise = fetch('/purgatory/pages.json').then(response => response.json());
+					const sizesPromise = fetch('/purgatory/iconsizes.json').then(response => response.json());
+
+					Promise.all([pagesPromise, sizesPromise]).then(([pagesData, iconSizes]) => {
+				        const pageList = document.getElementById('hello');
+				       pagesData.pages.forEach(page => {
+				       	if (page["pagetype"] == "MainPage") {
+				            const listItem = document.createElement('div');
+						const image = document.createElement('img');
+						const link = document.createElement('a');
+
+						listItem.classList.add("listitem");
+						image.src = `${page.icon}`;
+						image.classList.add("icon");
+						link.href = `/purgatory/pages/${page.file}`;
+						link.textContent = page.title;
+
+						const iconName = page.title;
+						if (iconSizes[iconName]) {
+							image.style.width = iconSizes[iconName].width;
+						} else {
+							image.style.width = "3em";
+						}
+
+						listItem.addEventListener('click', () => {
+							window.location.href = `/purgatory/pages/${page.file}`;
+						});
+
+						listItem.appendChild(image);
+						listItem.appendChild(link);
+						pageList.appendChild(listItem);
+				       	}
+				        });
+				    });
+		</script>
+	</body>
+</html>

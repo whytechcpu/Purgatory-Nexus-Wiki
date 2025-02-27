@@ -1,0 +1,445 @@
+{
+    "pages": [
+        {
+            "title": "Kryix",
+            "file": "Kryix",
+            "icon": "/purgatory/images/icons/Kryix.png",
+            "tags": ["Geminoid", "Batch-A", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Bisp",
+            "file": "Bisp",
+            "icon": "/purgatory/images/icons/Bisp.png",
+            "tags": ["Robot", "Batch-A", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Nova",
+            "file": "Nova",
+            "icon": "/purgatory/images/icons/Nova.png",
+            "tags": ["Shadow", "Batch-A", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Samuel",
+            "file": "Samuel",
+            "icon": "/purgatory/images/icons/Samuel.png",
+            "tags": ["Blockian", "Batch-A", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Amber",
+            "file": "Amber",
+            "icon": "/purgatory/images/icons/Amber.png",
+            "tags": ["Batch-A", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Karson",
+            "file": "Karson",
+            "icon": "/purgatory/images/icons/Karson.png",
+            "tags": ["Blockian", "Batch-A", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Fupzbux",
+            "file": "Fupzbux",
+            "icon": "/purgatory/images/icons/Fupzbux.png",
+            "tags": ["Glitch", "Batch-B", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Sumbly",
+            "file": "Sumbly",
+            "icon": "/purgatory/images/icons/Sumbly.png",
+            "tags": ["Robot", "Batch-B", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Galaztic",
+            "file": "Galaztic",
+            "icon": "/purgatory/images/icons/Galaztic.png",
+            "tags": ["Batch-B", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Takmit",
+            "file": "Takmit",
+            "icon": "/purgatory/images/icons/Takmit.png",
+            "tags": ["Batch-B", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Bleerpi",
+            "file": "Bleerpi",
+            "icon": "/purgatory/images/icons/Bleerpi.png",
+            "tags": ["Blockian", "Alien", "Batch-B", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "HornCube",
+            "file": "HornCube",
+            "icon": "/purgatory/images/icons/HornCube.png",
+            "tags": ["Pre-PurgatoryNexus", "Batch-B", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Nexance",
+            "file": "Nexance",
+            "icon": "/purgatory/images/icons/Nexance.png",
+            "tags": ["Batch-1", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Hanory",
+            "file": "Hanory",
+            "icon": "/purgatory/images/icons/Hanory.png",
+            "tags": ["Ghost", "Blockian", "Batch-1", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Assicnid",
+            "file": "Assicnid",
+            "icon": "/purgatory/images/icons/Assicnid.png",
+            "tags": ["Spider", "Batch-1", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Coobet",
+            "file": "Coobet",
+            "icon": "/purgatory/images/icons/Coobet.png",
+            "tags": ["Alien", "Batch-1", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Ksybet",
+            "file": "Ksybet",
+            "icon": "/purgatory/images/icons/Ksybet.png",
+            "tags": ["Robot", "Batch-1", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Fimpy",
+            "file": "Fimpy",
+            "icon": "/purgatory/images/icons/Fimpy.png",
+            "tags": ["Blobpet", "Batch-1", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Watchling",
+            "file": "Watchling",
+            "icon": "/purgatory/images/icons/Watchling.png",
+            "tags": ["Batch-2", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Pazery",
+            "file": "Pazery",
+            "icon": "/purgatory/images/icons/Pazery.png",
+            "tags": ["Batch-2", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Fledery",
+            "file": "Fledery",
+            "icon": "/purgatory/images/icons/Fledery.png",
+            "tags": ["Batch-2", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Hydroid",
+            "file": "Hydroid",
+            "icon": "/purgatory/images/icons/Hydroid.png",
+            "tags": ["Robot", "Batch-2", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Sarion",
+            "file": "Sarion",
+            "icon": "/purgatory/images/icons/Sarion.png",
+            "tags": ["Crow", "Batch-2", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Azil",
+            "file": "Azil",
+            "icon": "/purgatory/images/icons/Azil.png",
+            "tags": ["Axolotl", "Batch-2", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Veramix",
+            "file": "Veramix",
+            "icon": "/purgatory/images/icons/Veramix.png",
+            "tags": ["Robot", "Batch-3", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Aertex",
+            "file": "Aertex",
+            "icon": "/purgatory/images/icons/Aertex.png",
+            "tags": ["Aertex", "Batch-3", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Rifletic",
+            "file": "Rifletic",
+            "icon": "/purgatory/images/icons/Rifletic.png",
+            "tags": ["Batch-3", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Unifix",
+            "file": "Unifix",
+            "icon": "/purgatory/images/icons/Unifix.png",
+            "tags": ["Batch-3", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Lerimori",
+            "file": "Lerimori",
+            "icon": "/purgatory/images/icons/Lerimori.png",
+            "tags": ["Batch-3", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Adikami",
+            "file": "Adikami",
+            "icon": "/purgatory/images/icons/Adikami.png",
+            "tags": ["Batch-3", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Mylery",
+            "file": "Mylery",
+            "icon": "/purgatory/images/icons/Mylery.png",
+            "tags": ["Batch-4", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Cathlyst",
+            "file": "Cathlyst",
+            "icon": "/purgatory/images/icons/Cathlyst.png",
+            "tags": ["Geminoid", "Batch-4", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Dyative",
+            "file": "Dyative",
+            "icon": "/purgatory/images/icons/Dyative.png",
+            "tags": ["Dyative", "Batch-4", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Charlie",
+            "file": "Charlie",
+            "icon": "/purgatory/images/icons/Charlie.png",
+            "tags": ["Blockian", "Batch-4", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Stellafy",
+            "file": "Stellafy",
+            "icon": "/purgatory/images/icons/Stellafy.png",
+            "tags": ["Batch-4", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Eromite",
+            "file": "Eromite",
+            "icon": "/purgatory/images/icons/Eromite.png",
+            "tags": ["Batch-4", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Tacket",
+            "file": "Tacket",
+            "icon": "/purgatory/images/icons/Tacket.png",
+            "tags": ["Batch-5", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Jesilon",
+            "file": "Jesilon",
+            "icon": "/purgatory/images/icons/Jesilon.png",
+            "tags": ["Batch-5", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Grimblo",
+            "file": "Grimblo",
+            "icon": "/purgatory/images/icons/Grimblo.png",
+            "tags": ["Batch-5", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Ableh",
+            "file": "Ableh",
+            "icon": "/purgatory/images/icons/Ableh.png",
+            "tags": ["Batch-5", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Ovish",
+            "file": "Ovish",
+            "icon": "/purgatory/images/icons/Ovish.png",
+            "tags": ["Batch-5", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Radion",
+            "file": "Radion",
+            "icon": "/purgatory/images/icons/Radion.png",
+            "tags": ["Batch-5", "Character"],
+            "pagetype": "Character"
+        },
+        
+        {
+            "title": "Colorness",
+            "file": "Colorness",
+            "icon": "/purgatory/images/icons/Colorness.png",
+            "tags": ["Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Bamding",
+            "file": "Bamding",
+            "icon": "/purgatory/images/icons/Bamding.png",
+            "tags": ["Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Qwerb",
+            "file": "Qwerb",
+            "icon": "/purgatory/images/icons/Qwerb.png",
+            "tags": ["Robot", "Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Zarge",
+            "file": "Zarge",
+            "icon": "/purgatory/images/icons/Zarge.png",
+            "tags": ["Robot", "Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Rock",
+            "file": "Rock",
+            "icon": "/purgatory/images/icons/Rock.png",
+            "tags": ["Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Parge2",
+            "file": "Parge2",
+            "icon": "/purgatory/images/icons/Parge2.png",
+            "tags": ["Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Copaz",
+            "file": "Copaz",
+            "icon": "/purgatory/images/icons/Copaz.png",
+            "tags": ["Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Beezth",
+            "file": "Beezth",
+            "icon": "/purgatory/images/icons/Beezth.png",
+            "tags": ["Batchless", "Character"],
+            "pagetype": "Character"
+        },
+        {
+            "title": "Batch-A",
+            "file": "Batch-A",
+            "icon": "/purgatory/images/icons/Batch-A.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-B",
+            "file": "Batch-B",
+            "icon": "/purgatory/images/icons/Batch-B.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-1",
+            "file": "Batch-1",
+            "icon": "/purgatory/images/icons/Batch-1.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-2",
+            "file": "Batch-2",
+            "icon": "/purgatory/images/icons/Batch-2.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-3",
+            "file": "Batch-3",
+            "icon": "/purgatory/images/icons/Batch-3.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-4",
+            "file": "Batch-4",
+            "icon": "/purgatory/images/icons/Batch-4.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-5",
+            "file": "Batch-5",
+            "icon": "/purgatory/images/icons/Batch-5.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Batch-6",
+            "file": "Batch-6",
+            "icon": "/purgatory/images/icons/Batch-6.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Other",
+            "file": "Other",
+            "icon": "/purgatory/images/icons/OtherBatch.png",
+            "tags": ["Batch"],
+            "pagetype": "Category"
+        },
+        {
+            "title": "Characters",
+            "file": "Characters",
+            "icon": "/purgatory/images/icons/CharacterIcon.png",
+            "tags": [],
+            "pagetype": "MainPage"
+        },
+        {
+            "title": "Locations",
+            "file": "Locations",
+            "icon": "/purgatory/images/icons/Location.png",
+            "tags": [],
+            "pagetype": "MainPage"
+        },
+        {
+            "title": "Credits",
+            "file": "Credits",
+            "icon": "/purgatory/images/icons/Credits.png",
+            "tags": [],
+            "pagetype": "MainPage"
+        }
+    ]
+}
